@@ -26,7 +26,6 @@ export default function WelcomeScreen({ navigation }) {
       >
         <Text style={styles.buttonText}>View Menu</Text>
       </Pressable>
-      <br />
       <Pressable style={styles.button} onPress={() => navigation.goBack()}>
         <Text style={styles.buttonText}>Home</Text>
       </Pressable>
